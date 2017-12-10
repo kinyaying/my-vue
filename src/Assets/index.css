@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+.el-header, .el-footer {
+  background-color: #409EFF;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+}
+.my-alert {
+  width: 80%;
+}
