@@ -28,7 +28,7 @@
 启动前端开发服务，成功执行后，会自动打开浏览器，在浏览器地址栏输入`http://localhost:8080`就可以访问这个项目。
 
 ## 项目预览
-![Mou icon](https://github.com/kinyaying/resource/blob/master/test.gif?raw=true)
+![Mou icon](https://github.com/kinyaying/resource/blob/master/test0.gif?raw=true)
 
 ## 主要目录结构
 ```
