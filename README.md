@@ -15,9 +15,9 @@
 ## 如何运行
 下载项目
 ```
- git clone https://github.com/canfoo/react-taopiaopiao.git
+ git clone https://github.com/kinyaying/my-vue.git
 ```
- 打开一个终端（称这个终端为A终端）进入到react-taopiaopiao目录安装依赖包（注意：如果`npm install` 不能正常安装完成，请使用`cnpm install`进行安装）
+ 打开一个终端（称这个终端为A终端）进入到my-vue目录安装依赖包（注意：如果`npm install` 不能正常安装完成，请使用`cnpm install`进行安装）
 ```
  npm install
 ```
@@ -28,7 +28,7 @@
 启动前端开发服务，成功执行后，会自动打开浏览器，在浏览器地址栏输入`http://localhost:8080`就可以访问这个项目。
 
 ## 项目预览
-![Mou icon](./Screenshots/1.gif)
+![Mou icon](https://github.com/kinyaying/resource/blob/master/test.gif?raw=true)
 
 ## 主要目录结构
 ```
@@ -42,12 +42,11 @@
 │   ├── Router               # 路由
 │   │   └── index.js         # 路由入口
 │   ├── Store                # 数据层
-│   │   └── index.js
-│   ├── app.js               # 入口
+│   │   └── index.js         # 数据入口
+│   ├── app.js               # 入口（vue根实例）
 │   ├── index.html
-│   ├── index.vue
-│   └── router.js
-└── webpack.config.js
+│   ├── main.vue             # 根组件
+└── webpack.config.js        # webpack配置文件
 ```
 ## 项目博客地址
-如果对项目有疑惑的地方，请到[http://www.cnblogs.com/canfoo/p/6394761.html](http://www.cnblogs.com/canfoo/p/6394761.html)里留言。如果觉得这个项目对你有帮助的话，请Star一下本项目，这是对作者最大的支持。
+如果对项目有疑惑的地方，请看博客里的解说[https://kinyaying.github.io/2017/12/01/](https://kinyaying.github.io/2017/12/01/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAvue%E8%84%9A%E6%89%8B%E6%9E%B6/)。如果觉得这个项目对你有帮助的话，请Star一下本项目，这是对作者最大的支持。
