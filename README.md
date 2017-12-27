@@ -51,46 +51,4 @@
 ## 项目博客地址
 如果对项目有疑惑的地方，请看博客里的解说[https://kinyaying.github.io/2017/12/01/](https://kinyaying.github.io/2017/12/01/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAvue%E8%84%9A%E6%89%8B%E6%9E%B6/)。如果觉得这个项目对你有帮助的话，请Star一下本项目，这是对作者最大的支持。
 
-# 商超扫码购管理系统
-
-> 本系统目标实现商超生态扫码购项目的后台管理系统，一期主要针对B端，支持B端用户的商品管理、订单查询等功能
-
-## 技术实现
-
-使用Nodejs作为Controller层，负责用户身份校验、页面渲染、后端接口数据的代理
-
-前端使用Vue技术，目前先参考外卖模式，只支持单页面入口的方式渲染
-后期支持SPA模式，前端添加Router
-
-
-## 如何运行
-
-下载项目
-```
- git clone ssh://git@git.sankuai.com/reco/reco_fe_freego_admin.git
-```
-打开终端，进入到reco_fe_freego_admin目录下
-若是开发模式，切换分支到`dev`，重新拉取代码
-```
- git checkout dev
- git pull
-```
-安装依赖包
-```
- npm install
-```
-安装完成后运行`npm run local`，启动server服务
-```
- npm run local
-```
-浏览器中输入`http://localhost:8420/pc/index`，打开页面
-
-
-### 待添加功能
-
-1. [ ] SSO中间件的支持
-1. [ ] MOCK数据的方式支持
-1. [ ] 美团云存储的方案
-1. [ ] 前端界面基础框架的搭建
-1. [ ] eslint配置
 
