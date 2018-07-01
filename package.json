@@ -6,8 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --port 8080",
     "build": "webpack"
-  },
-  "author": "",
+  }i,
+  "author": "kinyaying",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
