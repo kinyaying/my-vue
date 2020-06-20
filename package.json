@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --port 8080",
-    "build": "webpack"
+    "start": "http-server -p 8099"
   },
   "author": "kinyaying",
   "license": "ISC",
